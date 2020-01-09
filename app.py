@@ -28,7 +28,7 @@ def find_val(mstat, deps, wages, salt, item):
 
 def make_plot(src):
     p = figure(x_range=["Current Law", "TCJA Repeal", "SALT Cap Repeal"],
-               plot_height=300, plot_width=500, toolbar_location=None)
+               plot_height=300, plot_width=500, toolbar_location=None, tools="")
     p.vbar(source=src, x='x_vals', top='itax', fill_color='#ff7f0e', color='#ff7f0e',
            hover_fill_color='#ff7f0e', hover_fill_alpha=0.8, width=0.3, fill_alpha=0.5)
     hline = Span(location=0, dimension='width', line_color='black')
