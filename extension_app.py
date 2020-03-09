@@ -84,4 +84,4 @@ src = find_val(mstat=1, deps=0, wages=0, salt=0, item=0)
 p = make_plot(src)
 
 layout = row(controls, p)
-curdoc.add_root(layout)
+curdoc().add_root(layout)
