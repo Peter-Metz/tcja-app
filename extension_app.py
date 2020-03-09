@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import bokeh
-from bokeh.io import output_notebook, output_file, save
+from bokeh.io import output_notebook, output_file, save, curdoc
 from bokeh.plotting import figure, show
 from bokeh.models import ColumnDataSource, NumeralTickFormatter, Span, HoverTool, LabelSet
 from bokeh.layouts import column, row, WidgetBox
