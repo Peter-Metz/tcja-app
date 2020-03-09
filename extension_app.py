@@ -10,6 +10,7 @@ from bokeh.application.handlers import FunctionHandler
 from bokeh.application import Application
 from bokeh.models.widgets import RadioButtonGroup, Slider, Dropdown, Div
 from bokeh.palettes import Category20
+from os.path import dirname, join
 
 df = pd.read_csv(join(dirname(__file__), 'tcja_ext_data.csv'))
 
